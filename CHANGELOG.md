@@ -1,3 +1,36 @@
+# [5.3.0](https://github.com/Open-Attestation/jsonld.js/compare/v5.2.0...v5.3.0) (2021-09-16)
+
+
+### Bug Fixes
+
+* add hook for typeExpansion, cover [@base](https://github.com/base) null ([1f51f75](https://github.com/Open-Attestation/jsonld.js/commit/1f51f75a988c60f65e05d4f8105d45ece1cd88a7))
+* add support for when [@vocab](https://github.com/vocab) results in relative iri ([2f2ea3c](https://github.com/Open-Attestation/jsonld.js/commit/2f2ea3cde11f132258c172c83fd7ffa8bbe9be9c))
+* call expansion map from _expandIri instead of _expandObject ([7463ebc](https://github.com/Open-Attestation/jsonld.js/commit/7463ebce2d32ce5fa96c0b7ef4f84acc7ab25f89))
+* duplicate expansionMap logic ([ba0aca9](https://github.com/Open-Attestation/jsonld.js/commit/ba0aca98bed0f05d1d4e4b9d644afec57d6b5bd7))
+* linting ([ac309fe](https://github.com/Open-Attestation/jsonld.js/commit/ac309feb6d093e01a0471d2a3f559a81322132a1))
+* minor linting issues ([20e2286](https://github.com/Open-Attestation/jsonld.js/commit/20e2286d198ce7d376320306f9df3667f48a4544))
+* refactor [@base](https://github.com/base) expansionLogic ([e7c6dc0](https://github.com/Open-Attestation/jsonld.js/commit/e7c6dc093c32964301d4456b9c9057041548e093))
+* remove esm ([cacfd53](https://github.com/Open-Attestation/jsonld.js/commit/cacfd53c9a7604829623e8d1cecd901ee06f3fa5))
+* style nit ([16f3367](https://github.com/Open-Attestation/jsonld.js/commit/16f336705556584062c9a1aae7e236daf4c96719))
+* update package info ([563a7f5](https://github.com/Open-Attestation/jsonld.js/commit/563a7f5bbf6fe6f5ba7f489f9e40ba6f5ca2318b))
+
+
+### Features
+
+* add prependIri expansionMap hook and tests ([e3d8c15](https://github.com/Open-Attestation/jsonld.js/commit/e3d8c15bb08c2e7a051444f7e75235059cf2cfae))
+* add support for [@base](https://github.com/base) being './' ([a525dd2](https://github.com/Open-Attestation/jsonld.js/commit/a525dd29a62c81cbdd3a6423bdd5d6d4aa459b74))
+* extend expansion map for detecting relative IRIs for [@id](https://github.com/id) and [@type](https://github.com/type) terms ([0fa6515](https://github.com/Open-Attestation/jsonld.js/commit/0fa6515f976e74e485b536da3aa5d446f4735952))
+
+
+### Miscellaneous
+
+* Update lib/context.js ([3222641](https://github.com/Open-Attestation/jsonld.js/commit/32226419c3ae2c5ef196e1e28ac9e04dab3e1db7))
+* Update tests/misc.js ([f0c8467](https://github.com/Open-Attestation/jsonld.js/commit/f0c846749c2508b9f9f652ca523446d8c31c2def))
+* Update tests/misc.js ([3bbe917](https://github.com/Open-Attestation/jsonld.js/commit/3bbe9170db1b2ceaf8630a1794e9ff7ef566f5a7))
+* Update lib/expand.js ([163bb5d](https://github.com/Open-Attestation/jsonld.js/commit/163bb5d249e04e66a4a7be332502f930b43b4832))
+* Update lib/expand.js ([74f6069](https://github.com/Open-Attestation/jsonld.js/commit/74f6069bcda83b7e331ebcc7d17a89f87bba8e18))
+* Start 5.2.1-0. ([ee976d2](https://github.com/Open-Attestation/jsonld.js/commit/ee976d20ef55ae3bf782e8dae46b9b1862470b26))
+
 # jsonld ChangeLog
 
 ## 5.2.0 - 2021-04-07

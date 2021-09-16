@@ -6,7 +6,7 @@ jsonld.js
 [![Dependency Status](https://img.shields.io/david/digitalbazaar/jsonld.js.svg)](https://david-dm.org/digitalbazaar/jsonld.js)
 
 Introduction
-------------
+-----------
 
 This library is an implementation of the [JSON-LD][] specification in
 JavaScript.
