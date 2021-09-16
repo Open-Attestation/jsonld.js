@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/Open-Attestation/jsonld.js/compare/v0.0.0...v0.1.0) (2021-09-16)
+
+
+### Features
+
+* remove esm ([53f6552](https://github.com/Open-Attestation/jsonld.js/commit/53f6552d3f6e0f0e19dcd456954d6a900cfd3ea6))
+
 # [5.3.0](https://github.com/Open-Attestation/jsonld.js/compare/v5.2.0...v5.3.0) (2021-09-16)
 
 
