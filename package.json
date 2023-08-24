@@ -22,7 +22,7 @@
     "access": "public"
   },
   "dependencies": {
-    "canonicalize": "^1.0.1",
+    "canonicalize": "^1.0.8",
     "cross-fetch": "^3.1.4",
     "lru-cache": "^6.0.0",
     "rdf-canonize": "^3.0.0"
